@@ -1,8 +1,10 @@
 " Vim syntax file
-" Language:    Flat Assembler (FASM)
-" Maintainer: Leonid V. Fedorenchik <leonid@fedorenchik.com>
-" Last Change: 2019 Jun 26
-" FASM Home:   http://flatassembler.net/
+" Language: Flat Assembler (FASM)
+" Maintainer: Ron Aaron <ron@ronware.org>
+" Last Change: 2025/04/10
+" Vim URL: http://www.vim.org/lang.html
+" FASM Home: http://flatassembler.net/
+" FASM Version: 1.73.32
 
 if version < 600
     syntax clear
@@ -38,9 +40,13 @@ syn keyword fasmRegister tr0 tr1 tr3 tr4 tr5 tr6 tr7
 " SSE registers
 syn keyword fasmRegister xmm0 xmm1 xmm2 xmm3 xmm4 xmm5 xmm6 xmm7
 syn keyword fasmRegister xmm8 xmm9 xmm10 xmm11 xmm12 xmm13 xmm14 xmm15
+syn keyword fasmRegister xmm16 xmm17 xmm18 xmm19 xmm20 xmm21 xmm22 xmm23
+syn keyword fasmRegister xmm24 xmm25 xmm26 xmm27 xmm28 xmm29 xmm30 xmm31
 " AVX registers
 syn keyword fasmRegister ymm0 ymm1 ymm2 ymm3 ymm4 ymm5 ymm6 ymm7
 syn keyword fasmRegister ymm8 ymm9 ymm10 ymm11 ymm12 ymm13 ymm14 ymm15
+syn keyword fasmRegister ymm16 ymm17 ymm18 ymm19 ymm20 ymm21 ymm22 ymm23
+syn keyword fasmRegister ymm24 ymm25 ymm26 ymm27 ymm28 ymm29 ymm30 ymm31
 " AVX-512 registers
 syn keyword fasmRegister zmm0 zmm1 zmm2 zmm3 zmm4 zmm5 zmm6 zmm7
 syn keyword fasmRegister zmm8 zmm9 zmm10 zmm11 zmm12 zmm13 zmm14 zmm15
@@ -187,18 +193,19 @@ hi def link fasmSymbols         fasmRegister
 hi def link fasmPreprocess      fasmDirective
 hi def link fasmMacroDirective  fasmDirective
 
-hi def link fasmInstr           Keyword
-hi def link fasmRegister        Type
-hi def link fasmNumber          Constant
-hi def link fasmString          String
-hi def link fasmComment         Comment
-hi def link fasmOperator        Special
-hi def link fasmLabel           Underlined
-hi def link fasmSymbol          Structure
-hi def link fasmSpecial         Special
-hi def link fasmMacros          Identifier
-hi def link fasmDirective       PreProc
-hi def link fasmDataDirectives  rubyDefine
+hi def link fasmOperator Operator
+hi def link fasmComment Comment
+hi def link fasmDirective PreProc
+hi def link fasmRegister Type
+hi def link fasmNumber Constant
+hi def link fasmSymbol Structure
+hi def link fasmString String
+hi def link fasmSpecial Special
+hi def link fasmInstr Keyword
+hi def link fasmLabel Label
+hi def link fasmPrefix PreProc
+hi def link fasmMacros Identifier
+hi def link fasmDataDirectives StorageClass
 
 let b:current_syntax = "fasm"
 
