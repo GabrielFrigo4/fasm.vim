@@ -1,9 +1,9 @@
 " Vim syntax file
-" Language: Flat Assembler (FASM)
-" Maintainer: Ron Aaron <ron@ronware.org>
-" Last Change: 2025/04/10
-" Vim URL: http://www.vim.org/lang.html
-" FASM Home: http://flatassembler.net/
+" Language:     Flat Assembler (FASM)
+" Maintainer:   Ron Aaron <ron@ronware.org>
+" Last Change:  2025/04/10
+" Vim URL:      http://www.vim.org/lang.html
+" FASM Home:    http://flatassembler.net/
 " FASM Version: 1.73.32
 
 if version < 600
@@ -193,18 +193,18 @@ hi def link fasmSymbols         fasmRegister
 hi def link fasmPreprocess      fasmDirective
 hi def link fasmMacroDirective  fasmDirective
 
-hi def link fasmOperator Operator
-hi def link fasmComment Comment
-hi def link fasmDirective PreProc
-hi def link fasmRegister Type
-hi def link fasmNumber Constant
-hi def link fasmSymbol Structure
-hi def link fasmString String
-hi def link fasmSpecial Special
-hi def link fasmInstr Keyword
-hi def link fasmLabel Label
-hi def link fasmPrefix PreProc
-hi def link fasmMacros Identifier
+hi def link fasmOperator       Operator
+hi def link fasmComment        Comment
+hi def link fasmDirective      PreProc
+hi def link fasmRegister       Type
+hi def link fasmNumber         Constant
+hi def link fasmSymbol         Structure
+hi def link fasmString         String
+hi def link fasmSpecial        Special
+hi def link fasmInstr          Keyword
+hi def link fasmLabel          Label
+hi def link fasmPrefix         PreProc
+hi def link fasmMacros         Identifier
 hi def link fasmDataDirectives StorageClass
 
 let b:current_syntax = "fasm"
