@@ -19,10 +19,12 @@
 
 ### syntax:
 
- 1. https://github.com/RIscRIpt/vim-fasm-syntax
- 2. https://github.com/fedorenchik/fasm.vim
- 3. https://github.com/vim/vim/blob/master/runtime/syntax/fasm.vim
- 4. https://github.com/vim/vim/blob/master/runtime/syntax/nasm.vim
+ 1. https://www.felixcloutier.com/x86/
+ 2. https://github.com/tgrysztar/fasm
+ 3. https://github.com/RIscRIpt/vim-fasm-syntax
+ 4. https://github.com/fedorenchik/fasm.vim
+ 5. https://github.com/vim/vim/blob/master/runtime/syntax/fasm.vim
+ 6. https://github.com/vim/vim/blob/master/runtime/syntax/nasm.vim
 
 ### compiler:
 
