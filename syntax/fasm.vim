@@ -1,6 +1,6 @@
 " Vim syntax file
 " Language:     Flat Assembler (FASM)
-" Maintainer:   Ron Aaron <ron@ronware.org>
+" Maintainer:   Gabriel Frigo <gabriel.frigo4@gmail.com>
 " Last Change:  2025/04/10
 " Vim URL:      http://www.vim.org/lang.html
 " FASM Home:    http://flatassembler.net/

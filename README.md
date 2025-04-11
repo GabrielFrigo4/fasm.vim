@@ -22,6 +22,7 @@
  1. https://github.com/RIscRIpt/vim-fasm-syntax
  2. https://github.com/fedorenchik/fasm.vim
  3. https://github.com/vim/vim/blob/master/runtime/syntax/fasm.vim
+ 4. https://github.com/vim/vim/blob/master/runtime/syntax/nasm.vim
 
 ### compiler:
 
