@@ -195,7 +195,7 @@ syn keyword fasmDirective      ms ms64 mz native near needed notpageable pe pe64
 syn keyword fasmDirective      shareable static segment use16 use32 use64 virtual wdm writable writeable
 syn keyword fasmOperator       align as at defined eq eqtype from mod on ptr rva relativeto used
 
-syn match   fasmConstants       "\<[A-Z_][A-Z_0-9]*\>"
+syn match   fasmConstants       "\<[A-Z_][A-Z_0-9]*\>\C"
 syn match   fasmNumericOperator "[+-/*]"
 syn match   fasmLogicalOperator "[=|&~<>]\|<=\|>=\|<>"
 syn match   fasmBinaryNumber    "\<[01]\+b\>"
